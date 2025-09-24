@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "vite.config.js",
-      "use": "@vercel/vite-plugin"
+      "use": "@vitejs/plugin-vercel"
     },
     {
       "src": "server.js",
@@ -21,3 +21,4 @@
     }
   ]
 }
+
